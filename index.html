@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Henrique Fernandes - Sportmassage & Herstel</title>
+    <meta
+      name="description"
+      content="Henrique Fernandes - Gecertificeerd sportmasseur in Nijmegen Dukenburg. Sportmassage, herstel, blessurepreventie, ontspanningsmassage, myofasciale release, cupping, kinesiotaping, elektrotherapie."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="translations.js"></script>
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <nav class="top-nav">
+          <div class="brand">
+            <img
+              src="MEDIA/logo.jpeg"
+              alt="Logo Henrique Fernandes Sportmassage & Herstel"
+              class="brand-logo"
+            />
+            <div class="brand-text">
+              <span class="brand-name">Henrique Fernandes</span>
+              <span class="brand-tagline" data-i18n="brandTagline">Sportmassage &amp; Recovery</span>
+            </div>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#diensten" data-i18n="navDiensten">Diensten</a></li>
+            <li><a href="#prijzen" data-i18n="navPrijzen">Prijzen</a></li>
+            <li><a href="#over" data-i18n="navOver">Over mij</a></li>
+            <li><a href="galeria.html" data-i18n="navGaleria">Galería</a></li>
+            <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+            <li>
+              <select id="lang-select" class="lang-select" aria-label="Select language">
+                <option value="nl">NL</option>
+                <option value="en">EN</option>
+                <option value="pt">PT</option>
+                <option value="es">ES</option>
+                <option value="fr">FR</option>
+                <option value="de">DE</option>
+                <option value="pl">PL</option>
+                <option value="ro">RO</option>
+              </select>
+            </li>
+          </ul>
+          <a class="nav-cta" href="#contact" data-i18n="navCta">Boek je sessie</a>
+        </nav>
+
+        <div class="hero-grid">
+          <div class="hero-text">
+            <p class="hero-badge" data-i18n="heroBadge">Nieuw in Nijmegen Dukenburg</p>
+            <h1>
+              <span data-i18n="heroTitle1">Sneller herstellen</span><br />
+              <span data-i18n="heroTitle2">en weer pijnvrij bewegen</span>
+            </h1>
+            <p class="hero-subtitle" data-i18n="heroSubtitle">
+              Gecertificeerd sportmasseur gespecialiseerd in herstel, blessurepreventie
+              en spierbehandeling. Persoonlijke benadering gericht op prestatie
+              &amp; herstel.
+            </p>
+            <ul class="hero-benefits">
+              <li data-i18n="heroBenefit1">Sneller herstel van blessures</li>
+              <li data-i18n="heroBenefit2">Minder spierpijn en stijfheid</li>
+              <li data-i18n="heroBenefit3">Meer mobiliteit en pijnvrij bewegen</li>
+            </ul>
+            <div class="hero-actions">
+              <a class="btn-primary" href="https://wa.me/31628955286" target="_blank" rel="noreferrer" data-i18n="heroWhatsapp">
+                WhatsApp: 06 2895 5286
+              </a>
+              <a class="btn-secondary" href="#prijzen" data-i18n="heroViewPrices">Bekijk tarieven</a>
+            </div>
+            <p class="hero-note" data-i18n="heroNote">
+              Adres: Malvert 7007, 6538 DP Nijmegen (Marilena Beautysalon)
+            </p>
+          </div>
+
+          <div class="hero-image">
+            <img
+              src="MEDIA/PROMO.jpeg"
+              alt="Henrique Fernandes sportmassage & herstel"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section highlight" id="promo">
+        <div class="container promo-grid">
+          <div class="promo-text">
+            <h2 data-i18n="promoTitle">Openingsaanbieding</h2>
+            <p class="promo-price">
+              <span data-i18n="promoPrice">60 minuten sportmassage</span> -
+              <span>€40</span>
+              <span class="promo-old-price" data-i18n="promoOldPrice">(normale prijs €50)</span>
+            </p>
+            <p class="promo-limited" data-i18n-html="promoLimited">
+              Alleen voor de eerste <strong>20 klanten</strong>.
+            </p>
+          </div>
+          <div class="promo-included">
+            <h3 data-i18n="promoIncluded">Gratis Recovery Add-on inbegrepen</h3>
+            <ul>
+              <li data-i18n="promoItem1">Stretching &amp; mobilisaties</li>
+              <li data-i18n="promoItem2">Cupping</li>
+              <li data-i18n="promoItem3">Kinesiotaping</li>
+              <li data-i18n="promoItem4">Elektrotherapie (afhankelijk van wat jouw lichaam nodig heeft)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="diensten">
+        <div class="container">
+          <h2 data-i18n="dienstenTitle">Diensten</h2>
+          <p class="section-intro" data-i18n="dienstenIntro">
+            Gespecialiseerd in herstel, blessurepreventie en spierbehandeling. Combinatie
+            van technieken voor het beste resultaat, afgestemd op jouw lichaam en sport.
+          </p>
+
+          <div class="cards-grid">
+            <article class="card">
+              <h3 data-i18n="card1Title">Sportmassage</h3>
+              <p data-i18n="card1Desc">
+                Gericht op herstel en prestaties. Ideaal voor (top)sporters en
+                iedereen die intensief beweegt.
+              </p>
+              <ul>
+                <li data-i18n="card1a">Verbetert doorbloeding en spierherstel</li>
+                <li data-i18n="card1b">Helpt blessures voorkomen</li>
+                <li data-i18n="card1c">Ondersteunt voorbereiding op wedstrijden</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 data-i18n="card2Title">Therapeutische massage</h3>
+              <p data-i18n="card2Desc">
+                Inclusief myofasciale release. Gericht op klachten zoals
+                spierpijn, triggerpoints en bewegingsbeperkingen.
+              </p>
+              <ul>
+                <li data-i18n="card2a">Diepe behandeling van spieren en bindweefsel</li>
+                <li data-i18n="card2b">Vermindering van pijn en spanning</li>
+                <li data-i18n="card2c">Verbetering van mobiliteit</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 data-i18n="card3Title">Ontspanningsmassage</h3>
+              <p data-i18n="card3Desc">
+                Herstelgericht, met focus op stressvermindering en rust in het
+                hele lichaam.
+              </p>
+              <ul>
+                <li data-i18n="card3a">Vermindert stress en spanning</li>
+                <li data-i18n="card3b">Verbetert slaapkwaliteit</li>
+                <li data-i18n="card3c">Helpt lichaam &amp; geest tot rust komen</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 data-i18n="card4Title">Blessurepreventie &amp; behandeling</h3>
+              <p data-i18n="card4Desc">
+                Gericht op veelvoorkomende klachten zoals ischias, nekkramp,
+                stijve nek, lage rugpijn (spit), peesontsteking(en) en meer.
+              </p>
+              <ul>
+                <li data-i18n="card4a">Analyse van houding en beweging</li>
+                <li data-i18n="card4b">Combinatie van technieken per klacht</li>
+                <li data-i18n="card4c">Advies voor trainen zonder pijn</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 data-i18n="card5Title">Manuele lymfedrainage</h3>
+              <p data-i18n="card5Desc">
+                Zachte techniek om vochtophoping te verminderen en herstel te
+                versnellen.
+              </p>
+              <ul>
+                <li data-i18n="card5a">Ondersteunt afvoer van afvalstoffen</li>
+                <li data-i18n="card5b">Geschikt na blessures of zware inspanning</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3 data-i18n="card6Title">Extra's (add-ons)</h3>
+              <p data-i18n="card6Desc">Te combineren tijdens je behandeling voor extra resultaat.</p>
+              <ul>
+                <li data-i18n="card6a">Cupping - €20</li>
+                <li data-i18n="card6b">Kinesiotaping - €20</li>
+                <li data-i18n="card6c">Elektrotherapie - €20</li>
+                <li data-i18n="card6d">Behandeling aan huis - €60</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="prijzen">
+        <div class="container">
+          <h2 data-i18n="prijzenTitle">Prijzen &amp; tarieven</h2>
+
+          <div class="price-grid">
+            <div class="price-column">
+              <h3 data-i18n="priceSport">Sportmassage</h3>
+              <ul class="price-list">
+                <li><span data-i18n="price30min">30 min</span><span>€30</span></li>
+                <li><span data-i18n="price60min">60 min</span><span>€50</span></li>
+              </ul>
+
+              <h3 data-i18n="priceTherapeutisch">Therapeutische massage</h3>
+              <ul class="price-list">
+                <li><span data-i18n="price30min">30 min</span><span>€30</span></li>
+                <li><span data-i18n="price60min">60 min</span><span>€50</span></li>
+              </ul>
+            </div>
+
+            <div class="price-column">
+              <h3 data-i18n="priceOntspanning">Ontspanningsmassage</h3>
+              <ul class="price-list">
+                <li><span data-i18n="price30min">30 min</span><span>€30</span></li>
+                <li><span data-i18n="price60min">60 min</span><span>€50</span></li>
+              </ul>
+
+              <h3 data-i18n="priceBlessure">Blessurepreventie &amp; Herstel</h3>
+              <ul class="price-list">
+                <li><span data-i18n="priceConsult">Consult / behandeling</span><span>€50</span></li>
+              </ul>
+
+              <h3 data-i18n="priceLymfe">Manuele lymfedrainage</h3>
+              <ul class="price-list">
+                <li><span data-i18n="priceBehandeling">Behandeling</span><span>€40</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="prices-note" data-i18n="pricesNote">
+            Alle behandelingen zijn gericht op herstel &amp; prestatie. Samen
+            bepalen we welke combinatie van technieken het beste bij jou past.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="over">
+        <div class="container about-grid">
+          <div class="about-image">
+            <img
+              src="MEDIA/ABOUT.jpeg"
+              alt="Henrique Fernandes tijdens behandeling"
+            />
+          </div>
+          <div class="about-text">
+            <h2 data-i18n="overTitle">Over Henrique Fernandes</h2>
+            <p data-i18n="overP1">
+              Gecertificeerd sportmasseur, gespecialiseerd in herstel,
+              blessurepreventie en spierbehandeling. Met ervaring in het werken
+              met (top)sporters en actieve mensen helpt Henrique je om sneller
+              te herstellen en zonder pijn te blijven trainen.
+            </p>
+            <p data-i18n="overP2">
+              In de praktijk in Nijmegen Dukenburg staat een persoonlijke
+              benadering centraal. Elke sessie wordt afgestemd op jouw klachten,
+              sport en belastbaarheid, met duidelijke uitleg over wat er
+              gebeurt en waarom.
+            </p>
+            <ul class="about-bullets">
+              <li data-i18n="overBullet1">Veilig &amp; professioneel</li>
+              <li data-i18n="overBullet2">Persoonlijke benadering</li>
+              <li data-i18n="overBullet3">Blijven trainen zonder pijn</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="contact">
+        <div class="container contact-grid">
+          <div>
+            <h2 data-i18n="contactTitle">Boek je sessie</h2>
+            <p class="section-intro" data-i18n="contactIntro">
+              Neem direct contact op via WhatsApp, telefoon of social media om
+              je afspraak in te plannen of vragen te stellen.
+            </p>
+
+            <div class="contact-card">
+              <h3 data-i18n="contactCardTitle">Contactgegevens</h3>
+              <ul class="contact-list">
+                <li>
+                  <span class="contact-label" data-i18n="contactPhone">Telefoon / WhatsApp</span>
+                  <a href="tel:+351931727394">+351 931 727 394</a>
+                </li>
+                <li>
+                  <span class="contact-label" data-i18n="contactAdres">Adres</span>
+                  <span data-i18n="contactAddress">Marilena Beautysalon, Malvert 7007, 6538 DP Nijmegen</span>
+                </li>
+                <li>
+                  <span class="contact-label" data-i18n="contactInstagram">Instagram</span>
+                  <a
+                    href="https://www.instagram.com/rique.fernandes.sportstherapy/?hl=es"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="social-link social-instagram"
+                  >
+                    <svg class="social-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                      <path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                    <span>@rique.fernandes.sportstherapy</span>
+                  </a>
+                </li>
+                <li>
+                  <span class="contact-label" data-i18n="contactTikTok">TikTok</span>
+                  <a
+                    href="https://www.tiktok.com/@rique_sportmassage"
+                    target="_blank"
+                    rel="noreferrer"
+                    class="social-link social-tiktok"
+                  >
+                    <svg class="social-icon" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                      <path fill="currentColor" d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                    </svg>
+                    <span>@rique_sportmassage</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="contact-whatsapp-card">
+            <div class="whatsapp-card-glow"></div>
+            <div class="whatsapp-card-content">
+              <div class="whatsapp-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+              </div>
+              <h3 data-i18n="contactWhatsappTitle">Reserva directa por WhatsApp</h3>
+              <p class="whatsapp-card-desc" data-i18n="contactWhatsappDesc">
+                Chatea con Henrique al momento. Reserva tu sesión, pregunta precios o programa tu cita sin esperas.
+              </p>
+              <a
+                href="https://wa.me/351931727394?text=Hola%2C%20me%20gustar%C3%ADa%20reservar%20una%20sesi%C3%B3n%20de%20sportmassage.%20"
+                target="_blank"
+                rel="noreferrer"
+                class="whatsapp-cta-btn"
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                <span data-i18n="contactWhatsappCta">Reservar por WhatsApp</span>
+              </a>
+              <a href="tel:+351931727394" class="contact-phone-link">
+                <span data-i18n="contactOrCall">O llámalo directamente:</span>
+                <strong>+351 931 727 394</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div>
+          <p class="footer-brand" data-i18n="footerBrand">Henrique Fernandes - Sportmassage &amp; Herstel</p>
+          <p class="footer-text" data-i18n="footerText">
+            Gericht op herstel &amp; prestatie. Blijf trainen zonder pijn.
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html" data-i18n="footerHome">Home</a>
+          <a href="index.html#diensten" data-i18n="navDiensten">Diensten</a>
+          <a href="index.html#prijzen" data-i18n="navPrijzen">Prijzen</a>
+          <a href="galeria.html" data-i18n="navGaleria">Galería</a>
+          <a href="index.html#contact" data-i18n="navContact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="https://wa.me/351931727394"
+      target="_blank"
+      rel="noreferrer"
+      class="whatsapp-float"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </a>
+  </body>
+</html>
+
